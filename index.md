@@ -1,37 +1,94 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/RiuSRoy/quoteGen/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RiuSRoy/quoteGen/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[
+  {
+    "quote": "Arise, awake and stop not till the goal is reached.",
+    "person" : " –Swami Vivekananda"
+  },
+  {
+    "quote": "Death is not extinguishing the light; it is only putting out the lamp because the dawn has come.",
+    "person" : " –Rabindranath Tagore"
+  },
+  {
+    "quote": "Don't cry because it's over, smile because it happened.",
+    "person" : " –Dr. Seuss"
+  }
+  {
+    "quote": "He who can become mad with an idea, he alone sees light.",
+    "person" : " –Swami Vivekananda"
+  }
+  {
+    "quote": "Either you run the day, or the day runs you.",
+    "person" : " –Jim Rohn"
+  }
+  {
+    "quote": "The best revenge is massive success.",
+    "person" : " –Frank Sinatra"
+  }
+  {
+    "quote": "Without music, life would be a mistake.”,
+    "person" : " –Friedrich Nietzsche"
+  }
+  {
+    "quote": "Instinct is like ice, reason is the water, and inspiration is the subtlest form of vapour.",
+    "person" : " –Swami Vivekananda"
+  }
+  {
+    "quote": "When I hear somebody sigh, ‘Life is hard,’ I am always tempted to ask, ‘Compared to what?’",
+    "person" : " –Sydney Harris"
+  }
+  {
+    "quote": "When I let go of what I am, I become what I might be.",
+    "person" : " –Lao Tzu"
+  }
+  {
+    "quote": "If not us, who? If not now, when?",
+    "person" : " –John Kennedy"
+  }
+  {
+    "quote": "The world is the great gymnasium where we come to make ourselves strong.",
+    "person" : " –Swami Vivekananda"
+  }
+  {
+    "quote": "When the flower blooms, the bees come uninvited.",
+    "person" : " –Ramakrishna Parmahamsa"
+  }
+  {
+    "quote": "The first principle of true teaching is that nothing can be taught!",
+    "person" : " –Sir Aurobindo Ghosh"
+  }
+  {
+    "quote": "By plucking her petals you do not gather the beauty of the flower.",
+    "person" : " –Rabindranath Tagore"
+  }
+  {
+    "quote": "The greatest religion is to be true to your own future.",
+    "person" : " –Swami Vivekananda"
+  }
+  {
+    "quote": "If you can change the situation, then what's the need for worry? If you cannot change the situation, then what's the use for worry?",
+    "person" : " –SO, NEVER WORRY!"
+  }
+  {
+    "quote": "The things I used to trip on, I walk over now!",
+    "person" : " –"
+  }
+  {
+    "quote": "",
+    "person" : " –"
+  }
+  {
+    "quote": "Character is repeated habits, and repeated habits alone can reform character.",
+    "person" : " –Swami Vivekananda"
+  }
+  {
+    "quote": "Stay Hungry, Stay Foolish!",
+    "person" : " –Steve Jobs"
+  }
+  {
+    "quote": "The biggest changes in a women's nature are brought by love; in man, by ambition",
+    "person" : " –Rabindranath Tagore"
+  }
+  {
+    "quote": "In order to see, you have to stop being in the middle of the picture.",
+    "person" : " –Sir Aurobindo Ghosh"
+  }
+]
