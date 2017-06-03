@@ -69,11 +69,11 @@
   }
   {
     "quote": "The things I used to trip on, I walk over now!",
-    "person" : " –"
+    "person" : " –GOAL SHOULD BE!"
   }
   {
-    "quote": "",
-    "person" : " –"
+    "quote": "If you love someone,set them free. If they come back, they're yours; if they don't, they never were!",
+    "person" : " –Richard Bach"
   }
   {
     "quote": "Character is repeated habits, and repeated habits alone can reform character.",
