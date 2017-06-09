@@ -218,7 +218,7 @@ function initCanvas() {
     ctx.clearRect(0, comma.height, cw, ch - comma.height);
     ctx.fillStyle = "green";
     ctx.font = "bold 25px Oleo Script";
-    ctx.fillText(riuquotes[i].quote, 10 + comma.width, 100);
+    ctx.fillText(riuquotes[i].quote, comma.width, 100);
     ctx.fillStyle = "#3364FF";
     ctx.font = "bold 40px Lobster,sans-serif";
     ctx.fillText(riuquotes[i].person, 300 + comma.width, 250);
