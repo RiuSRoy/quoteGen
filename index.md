@@ -13,13 +13,8 @@
 <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-<!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />-->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
 <style>
-  #h{
-  background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 #heading{
   font-family: 'Pacifico';
   text-decoration: underline;
@@ -28,6 +23,7 @@
   text-align: center;
   margin-bottom: 20px;
   color: white;
+  text-shadow: 5px 5px #000;
 
 }
 .butn{
@@ -70,13 +66,12 @@
   <div class="container-fluid">
   <div class="row">
     <div class="col-xs-9">
-      <button id="btn" class="butn parah">A new Quote</button>
+      <button id="btn" class="butn" onclick="changeBG()">A new Quote</button>
     </div>
     
     <div class="col-xs-3">
-      <a class="twitter" href="https://twitter.com/share" target="_blank">
-      <button type="button" class="tweet"><i class="fa fa-twitter" aria-hidden="true"></i></button>
-    </a>
+      <a class="twitter" href="https://twitter.com/share" target="_blank"><button type="button" class="tweet"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+      </a>
     </div>
     <div class="col-xs-8"  id="quotes" >      
     </div>
@@ -85,7 +80,13 @@
     <canvas id="my_canvas" width="1220px" height="300px"></canvas>
   <div id="write"></div>
   <script>
-    var i = 0;
+var col=["khaki","fuschia","chocolate","crimson","lawngreen","olive","red","dimgray","navy","rosybrown","purple","aqua","indigo","forestgreen","orchid","tan","gold","tomato","wheat","greenyellow","yellowgreen","darkmagenta","indianred","mediumorchid","hotpink","limegreen","darkcyan","goldenrod","palevioletred","violet","palegreen","thistle","orangered","coral","lightseagreen","chartreuse","olivedrab","springgreen","burlywood"];
+function changeBG(){
+  var elem=document.getElementById('h');
+  elem.style.transition="background 1s linear 0s";
+  elem.style.background=col[Math.floor(Math.random()*col.length)];
+}
+var i=0;
 var comma = new Image();
 comma.src =
   "http://pix.iemoji.com/images/emoji/apple/ios-9/256/sans-serif-heavy-double-turned-comma-quotation-mark-ornament.png";
@@ -93,7 +94,6 @@ var ctx;
 var cw;
 var ch;
 var btn;
-var i;
 var riuquotes=[];
 function initCanvas() {
   ctx = document.getElementById('my_canvas').getContext("2d");
@@ -217,8 +217,8 @@ function initCanvas() {
     ctx.clearRect(comma.width, 0, cw - comma.width, ch);
     ctx.clearRect(0, comma.height, cw, ch - comma.height);
     ctx.fillStyle = "green";
-    ctx.font = "21px Oleo Script, Arial";
-    ctx.fillText(riuquotes[i].quote, comma.width, 100);
+    ctx.font = "bold 25px Oleo Script,Arial";
+    ctx.fillText(riuquotes[i].quote, 10 + comma.width, 100);
     ctx.fillStyle = "#3364FF";
     ctx.font = "bold 40px Lobster,sans-serif";
     ctx.fillText(riuquotes[i].person, 300 + comma.width, 250);
