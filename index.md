@@ -15,6 +15,9 @@
 <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
 <style>
+body{
+  font-size-adjust:0.58;
+}
 #heading{
   font-family: 'Pacifico';
   text-decoration: underline;
